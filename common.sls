@@ -1,9 +1,5 @@
-ntp:
-  pkg.installed: []
-  service.running: []
-
-vim:
-  pkg.installed: []
-
-git:
-  pkg.installed: []
+include:
+  - vim
+  - ssh.server
+  - ntp
+  - git
